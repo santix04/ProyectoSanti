@@ -24,9 +24,11 @@ footer{
     grid-template-rows: auto;
 }
 
-.Texto Footer{
-    display: flex;
-    justify-content: row;
+.Textofooter{
+    text-align: right;
+    margin-right: 5px;
+    display: grid;
+    flex-direction: column-reverse;
 }
 
 
