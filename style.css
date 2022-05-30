@@ -1,6 +1,11 @@
 h2{ 
     color: orangered;
 }
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
 body{
     background-color: rgb(0, 0, 0);
 
@@ -13,10 +18,10 @@ letter-spacing: 30px;
 }
 
 footer{
-    background-color:rgb(56, 0, 56);
-    color: white;
+    background-color:rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 6px;
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
     margin: auto;
@@ -70,4 +75,42 @@ gap: 1rem;
 }
 body{
     margin-bottom: 30%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    margin-top: 5px;
+}
+@media (max-width: 800px) {
+    .column{
+        flex: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .column{
+        flex: 100%;
+    }
+}
+.contenedor-flex{
+display: flex;
+flex-direction: column;
+padding: 10px;
+border: 2px solid black;
 }
