@@ -112,7 +112,7 @@ img{
     body{
         background-color:rgba(61, 0, 85, 0.637);
    }
-      h1 span :: before {
+      h1 span ::before {
         content: "phone device";
 }
     
@@ -121,7 +121,7 @@ img{
     body{
         background-color:rgb(0, 225, 255);
    }
-     h1 span :: before {
+     h1 span ::before {
         content: "tablet device";
 }
     
@@ -130,7 +130,7 @@ img{
     body{
         background-color:rgb(0, 0, 0);
    }
-      h1 span :: before {
+      h1 span ::before {
         content: "desktop device";
 }
     
