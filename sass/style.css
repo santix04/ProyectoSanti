@@ -1,0 +1,19 @@
+body {
+  background-color: aqua;
+}
+
+.nav {
+  display: table-row;
+  background-color: red;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */

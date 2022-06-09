@@ -1,0 +1,13 @@
+$colorbg: white;
+body{
+    background-color: aqua;
+}
+
+.nav{
+    display: table-row;
+    background-color: rgb(255, 0, 0);
+    justify-content: space-between;
+    justify-content: right;
+    align-items: center;
+    padding: 5px;
+}
