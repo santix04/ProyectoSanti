@@ -143,12 +143,6 @@ img {
 }
     
    }
-
-
-
-
-
-
 .contenedor-flex{
 display: flex;
 flex-direction: column;
@@ -166,16 +160,6 @@ line-height: 130%;
 
 .FAMILIA{
     text-align: center;
-}
-
-.HISTORIA{
-    text-align: center;
-}
-
-.MATERIALES{
-    text-align: center;
-}
-.MECANISMO{
     display: flex;
     flex-direction: column;
     color: rgb(255, 255, 255);
@@ -184,4 +168,42 @@ line-height: 130%;
     padding: 200px;
     border: 6px solid rgb(255, 0, 0);
     line-height: 130%;
+}
+
+.HISTORIA{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    font-size: 30px;
+    padding: 200px;
+    border: 6px solid rgb(255, 0, 0);
+    line-height: 130%;
+}
+
+.MATERIALES{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    font-size: 30px;
+    padding: 200px;
+    border: 6px solid rgb(255, 0, 0);
+    line-height: 130%;
+}
+.MECANISMO{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    font-size: 30px;
+    padding: 200px;
+    border: 6px solid rgb(255, 0, 0);
+    line-height: 130%;
+}
+.familia{
+    color: white;
 }
