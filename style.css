@@ -59,6 +59,7 @@ footer {
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+    font-size: 250%;
 }
 .nav_links{
     display: flex;
@@ -118,10 +119,11 @@ img {
 }
 @media screen and(min-width:350px){
     body{
-        background-color:rgba(61, 0, 85, 0.637);
+        background-color:rgba(0, 0, 0, 0.637);
+        font-size: 100%;
    }
       h1 span ::before {
-        content: "phone device";
+        content: "telefono";
 }
     
    }
@@ -130,7 +132,7 @@ img {
         background-color:rgb(0, 0, 0);
    }
      h1 span ::before {
-        content: "tablet device";
+        content: "tablet";
 }
     
    }
@@ -139,7 +141,7 @@ img {
         background-color:rgb(0, 0, 0);
    }
       h1 span ::before {
-        content: "desktop device";
+        content: "desktop";
 }
     
    }
@@ -155,7 +157,7 @@ line-height: 130%;
 }
 
 .texto{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .FAMILIA{
